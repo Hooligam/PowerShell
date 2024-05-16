@@ -1,3 +1,10 @@
+# Projeto de um problema real, as licenças da empresa eram atreladas ao usuarios por meio de grupos no AD, porem
+# tinham tipos de licenças que os usuarios não poderiam receber de forma duplicada, com isso o time de FINOPS tinha
+# que constantimente revisar as licenças e remover as duplicidades tudo isso manualmente, com essa simples solução 
+# criamos uma rotina automatizada que salvou muito tempo da squad.
+
+
+
 # Variaveis
 $groupName1 = "CN=,OU=,DC=,DC=,DC=" # Caminho do grupo
 $groupName2 = "CN=,OU=,DC=,DC=,DC=" # Caminho do grupo
